@@ -1216,5 +1216,5 @@ window.WARBULA_CONTENT = {
       "note": "Mengenal, menghargai, melestarikan."
     }
   ],
-  "edition": "menu-1"
+  "edition": "menu-2"
 };

@@ -185,3 +185,14 @@ main{padding-top:16px}
 #book button>*,#book a>*{pointer-events:none}
 
 #book .chapter-tile{padding:6px}#book .tile-label{font-size:16px}#book .tile-icon svg{width:29px;height:29px}
+
+/* The same quiet paper and leaf motif applies throughout the numbered book. */
+#book .book-page:not(.cover) .page-content::before{content:'';position:absolute;inset:0;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22480%22%20height%3D%22650%22%20viewBox%3D%220%200%20480%20650%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%239aa66f%22%20stroke-width%3D%221.2%22%20opacity%3D%22.4%22%3E%3Cpath%20d%3D%22M8%2086Q30%2045%2010%2012M472%20564Q450%20605%20470%20638%22%2F%3E%3Cpath%20fill%3D%22%23bdc79a%22%20stroke%3D%22none%22%20d%3D%22M16%2063Q1%2048%208%2041Q22%2045%2016%2063ZM18%2049Q34%2032%2028%2027Q14%2030%2018%2049ZM16%2033Q0%2027%205%2018Q17%2019%2016%2033ZM464%20587Q479%20602%20472%20609Q458%20605%20464%20587ZM462%20601Q446%20618%20452%20623Q466%20620%20462%20601ZM464%20617Q480%20623%20475%20632Q463%20631%20464%20617Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");background-size:480px 650px;background-repeat:no-repeat;z-index:0}
+#book .page-body,#book .back-art{position:relative;z-index:1}#book .folio{z-index:1}
+#book{touch-action:pan-y}
+.reader-controls #prev,.reader-controls #next{border:1.3px solid #6b8356;border-radius:22px;box-shadow:0 2px 0 #bcc9a4;background:#f7f5df;color:#315337;font-weight:600}
+.reader-controls #next{background:#456b39;color:#fffbea}.reader-controls #homeMenu{border:1.3px solid #6b8356;border-radius:18px;background:#f7f5df;color:#315337;font-weight:600}
+.reader-controls button:disabled{opacity:.32;box-shadow:none;cursor:default}
+#book .menu-extra{gap:12px}#book .menu-extra button{font-size:12px}
+
+#book .outside-chapter .page-content>*{visibility:hidden!important}
