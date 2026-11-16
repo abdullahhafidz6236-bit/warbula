@@ -4,82 +4,106 @@ window.WARBULA_CONTENT = {
   "author": "Bagas Junianto",
   "chapters": [
     {
-      "title": "Mari membuka buku",
-      "page": 1,
+      "title": "Pengantar",
+      "page": 2,
       "group": "Pembukaan",
       "number": ""
     },
     {
       "title": "Sejarah singkat Ngawi",
-      "page": 5,
+      "page": 4,
       "group": "Mengenal daerah kita",
-      "number": "01"
+      "number": "01",
+      "menuTitle": "Sejarah Ngawi",
+      "icon": "book"
     },
     {
       "title": "Peta Ngawi",
       "page": 8,
       "group": "Panduan perjalanan",
-      "number": "02"
+      "number": "02",
+      "menuTitle": "Peta Ngawi",
+      "icon": "map"
     },
     {
       "title": "Museum Trinil",
       "page": 10,
       "group": "Jejak masa lampau",
-      "number": "03"
+      "number": "03",
+      "menuTitle": "Museum Trinil",
+      "icon": "museum"
     },
     {
       "title": "Benteng Van den Bosch",
       "page": 14,
       "group": "Jejak masa lampau",
-      "number": "04"
+      "number": "04",
+      "menuTitle": "Benteng",
+      "icon": "fort"
     },
     {
       "title": "Monumen Soerjo",
       "page": 18,
       "group": "Jejak masa lampau",
-      "number": "05"
+      "number": "05",
+      "menuTitle": "Monumen Soerjo",
+      "icon": "monument"
     },
     {
       "title": "Rumah dan Museum Dr. Radjiman",
       "page": 22,
       "group": "Jejak masa lampau",
-      "number": "06"
+      "number": "06",
+      "menuTitle": "Museum Radjiman",
+      "icon": "museum"
     },
     {
       "title": "Penthul Melikan",
       "page": 26,
       "group": "Seni dan tradisi",
-      "number": "07"
+      "number": "07",
+      "menuTitle": "Penthul Melikan",
+      "icon": "mask"
     },
     {
       "title": "Keduk Beji",
       "page": 30,
       "group": "Seni dan tradisi",
-      "number": "08"
+      "number": "08",
+      "menuTitle": "Keduk Beji",
+      "icon": "water"
     },
     {
       "title": "Tari Orek-Orek",
       "page": 34,
       "group": "Seni dan tradisi",
-      "number": "09"
+      "number": "09",
+      "menuTitle": "Tari Orek-Orek",
+      "icon": "dance"
     },
     {
       "title": "Membandingkan warisan",
       "page": 38,
       "group": "Belajar dan beraksi",
-      "number": "10"
+      "number": "10",
+      "menuTitle": "Bandingkan Warisan",
+      "icon": "book"
     },
     {
       "title": "Merawat warisan kita",
       "page": 40,
       "group": "Belajar dan beraksi",
-      "number": "11"
+      "number": "11",
+      "menuTitle": "Merawat Warisan",
+      "icon": "leaf"
     },
     {
       "title": "Latihan & refleksi",
       "page": 44,
       "group": "Belajar dan beraksi",
-      "number": "12"
+      "number": "12",
+      "menuTitle": "Latihan dan Refleksi",
+      "icon": "book"
     },
     {
       "title": "Glosarium",
@@ -106,25 +130,27 @@ window.WARBULA_CONTENT = {
       "title": "Kebudayaan Ngawi"
     },
     {
-      "kind": "title",
-      "title": "Cerita dekat.\nWarisan berharga.",
-      "text": "Ada cerita di balik bangunan tua. Ada kebersamaan dalam tradisi. Ada identitas dalam setiap gerak tari.",
-      "note": "Mari mengenal Ngawi, satu halaman demi satu halaman."
+      "kind": "intro",
+      "title": "Pengantar",
+      "label": "Selamat datang di WARBULA",
+      "text": "Selamat datang di WARBULA! Ayo mengenal warisan budaya lokal Ngawi.",
+      "note": "Baca ceritanya, amati gambarnya, lalu pilih bab yang ingin kamu jelajahi.",
+      "image": "./assets/maskot-penjelajah.png"
     },
     {
-      "kind": "goals",
-      "title": "Sebelum kita\nmenjelajah",
-      "text": "Buku ini mengajakmu mengenal warisan sejarah, seni, dan tradisi di Kabupaten Ngawi.",
-      "items": [
-        "Kenali nama dan ciri warisan lokal.",
-        "Amati gambar dan cerita setiap bab.",
-        "Pikirkan cara ikut melestarikannya."
-      ],
-      "note": "Tekan panah untuk membalik halaman. Gunakan daftar isi untuk memilih bab, dan tandai halaman yang ingin kamu baca kembali."
+      "kind": "menu",
+      "title": "Menu Utama",
+      "label": "Jelajah warisan budaya lokal",
+      "text": "Pilih bab untuk mulai menjelajah."
     },
     {
-      "kind": "contents",
-      "title": "Daftar perjalanan"
+      "kind": "chapter",
+      "label": "01 · Mengenal daerah kita",
+      "number": "01",
+      "title": "Sejarah\nsingkat Ngawi",
+      "icon": "book",
+      "text": "Setiap tempat menyimpan cerita. Mari mengenal asal nama Ngawi dan perjalanan daerah kita.",
+      "note": "Amati cerita, gambar, dan peninggalan sejarah pada halaman berikutnya."
     },
     {
       "kind": "article",
@@ -834,14 +860,14 @@ window.WARBULA_CONTENT = {
         {
           "type": "BACAAN SEJARAH",
           "title": "Sejarah Singkat",
-          "text": "BPBJ Setda Kabupaten Ngawi. Tanpa tahun. Dasar ringkasan sejarah halaman 5–7. Diakses 15 November 2026.",
+          "text": "BPBJ Setda Kabupaten Ngawi. Tanpa tahun. Dasar ringkasan sejarah halaman 4–6. Diakses 15 November 2026.",
           "url": "https://bpbj.ngawikab.go.id/sejarah-singkat/",
           "linkLabel": "BPBJ Kabupaten Ngawi"
         },
         {
           "type": "DOKUMENTASI FOTO",
           "title": "Monumen Kartonyono Ngawi",
-          "text": "YT Arty (2026). Foto halaman 5: “Tugu Gading”. Wikimedia Commons. Ukuran diperkecil; rasio dipertahankan.",
+          "text": "YT Arty (2026). Foto halaman 4: “Tugu Gading”. Wikimedia Commons. Ukuran diperkecil; rasio dipertahankan.",
           "url": "https://commons.wikimedia.org/wiki/File:Monumen_Kartonyono_Ngawi.jpg",
           "linkLabel": "Berkas foto dan fotografer",
           "license": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -864,7 +890,7 @@ window.WARBULA_CONTENT = {
         {
           "type": "LOGO DAN ILUSTRASI",
           "title": "Identitas visual WARBULA",
-          "text": "Logo Kabupaten Ngawi dan STKIP Modern Ngawi disediakan oleh penyusun. Ilustrasi sampul dibuat dengan bantuan AI, bersifat konseptual, dan bukan dokumentasi lokasi sebenarnya.",
+          "text": "Logo Kabupaten Ngawi dan STKIP Modern Ngawi disediakan oleh penyusun. Ilustrasi sampul dan maskot dibuat dengan bantuan AI, bersifat konseptual, dan bukan dokumentasi lokasi sebenarnya.",
           "url": "",
           "linkLabel": ""
         },
@@ -1189,5 +1215,6 @@ window.WARBULA_CONTENT = {
       "text": "Warisan Budaya Lokal",
       "note": "Mengenal, menghargai, melestarikan."
     }
-  ]
+  ],
+  "edition": "menu-1"
 };
