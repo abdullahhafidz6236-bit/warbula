@@ -540,15 +540,29 @@ window.WARBULA_CONTENT = {
       "title": "Beragam bentuk.\nSatu warisan kita.",
       "icon": "book",
       "number": "10",
-      "text": "Ruang untuk membandingkan tempat sejarah, seni pertunjukan, dan tradisi masyarakat.",
-      "status": "Dalam penyusunan"
+      "text": "Warisan Ngawi hadir dalam banyak bentuk: tempat bersejarah, seni pertunjukan, dan kegiatan masyarakat. Setiap bentuk punya cerita dan cara untuk dipelajari."
     },
     {
       "kind": "activity",
-      "title": "Temukan\npersamaan dan bedanya",
+      "title": "Ayo\nkelompokkan",
       "icon": "book",
-      "text": "Ruang untuk aktivitas mengelompokkan tujuh materi yang telah dipelajari.",
-      "note": "Apakah museum, monumen, dan tradisi memiliki fungsi yang sama?"
+      "text": "Kelompokkan contoh berikut berdasarkan bentuknya. Gunakan cerita yang sudah kamu baca.",
+      "examples": [
+        "Museum Trinil",
+        "Benteng Van den Bosch",
+        "Monumen Soerjo",
+        "Rumah dan Museum Dr. Radjiman",
+        "Penthul Melikan",
+        "Keduk Beji",
+        "Tari Orek-Orek"
+      ],
+      "categories": [
+        "Tempat dan jejak sejarah",
+        "Seni pertunjukan",
+        "Kegiatan masyarakat"
+      ],
+      "comparisonPrompt": "Pilih dua contoh. Apa persamaan dan perbedaannya?",
+      "actionPrompt": "Satu cara saya menghargai warisan ini:"
     },
     {
       "kind": "chapter",
@@ -1216,5 +1230,5 @@ window.WARBULA_CONTENT = {
       "note": "Mengenal, menghargai, melestarikan."
     }
   ],
-  "edition": "menu-3"
+  "edition": "menu-14"
 };

@@ -278,7 +278,7 @@ main{padding-top:16px}
 #book .intro-mascots{height:246px;width:106%;max-width:none;margin:0 -3%}
 #book .intro-page .intro-note{margin:0 auto 9px;max-width:370px}
 #book .intro-start{padding:8px 23px}
-#book .book-page:not(.cover) .page-content::before{background-size:82px 82px,82px 82px,82px 82px,82px 82px,100% 100%;background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;opacity:.88}
+#book .book-page:not(.cover) .page-content::before{background-size:82px 82px,82px 82px,82px 82px,82px 82px;background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;opacity:.05}
 @media(max-width:600px){
  #book .intro-page .page-kicker{display:none}
  #book .intro-page h2{margin-top:0}
@@ -297,7 +297,7 @@ main{padding-top:16px}
 #book .book-page:not(.cover) .page-content::after{content:'';position:absolute;inset:0;pointer-events:none;background:url("./assets/paper-botanical-texture.jpg") center/100% 100% no-repeat;opacity:.12;z-index:0}
 #book .folio{gap:8px}
 #book .page-nav{height:35px;border-color:#315d3a;background:rgba(255,249,228,.92);box-shadow:0 1px 0 #c7d0ad;justify-content:space-evenly}
-#book .page-nav button{display:flex;align-items:center;justify-content:center;gap:5px;min-width:84px;padding:4px 9px;border:0;border-radius:14px;font:600 11px/1 Georgia;color:#244c31;white-space:nowrap;background:transparent}
+#book .page-nav button{display:flex;align-items:center;justify-content:center;gap:5px;min-width:84px;min-height:24px;padding:4px 9px;border:0;border-radius:14px;font:600 11px/1 Georgia;color:#244c31;white-space:nowrap;background:transparent}
 #book .page-nav button:hover:not(:disabled){background:#e9edda}
 #book .page-nav button:disabled{opacity:.4}
 #book .nav-symbol{font:16px/1 Arial;color:#315d3a}
@@ -319,3 +319,28 @@ main{padding-top:16px}
 #book .menu-page .menu-intro{margin-bottom:17px}
 #book .book-page:not(.cover) .page-content::after{opacity:.07}
 @media(max-width:600px){#book .menu-page .menu-intro{margin-bottom:13px}}
+
+/* A one-page comparison worksheet keeps the book readable without scrolling. */
+#book .page-body.activity-page{height:548px;overflow:hidden}
+#book .activity-page h2{font-size:30px;margin-bottom:9px}
+#book .activity-instructions{font-size:13px!important;line-height:1.35!important;margin:0 0 9px!important}
+#book .activity-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;margin:0 0 11px;padding:0;list-style:none}
+#book .activity-items li{display:flex;align-items:center;gap:7px;min-height:28px;padding:5px 7px;border:1px solid #d5ddc4;border-radius:6px;background:#f5f2e4;font:11px/1.2 Arial;color:#384a34}
+#book .activity-items li span{display:grid;place-items:center;flex:none;width:18px;height:18px;border-radius:50%;background:#e2e8d4;color:#38563b;font:10px Arial}
+#book .activity-heading{font:bold 14px Georgia;margin:0 0 5px}
+#book .activity-categories{display:grid;gap:5px}
+#book .activity-categories>div{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 9px;border-bottom:1px solid #d5ddc4;background:#f7f4e8}
+#book .activity-categories strong{font:11px/1.2 Arial}
+#book .activity-categories span{font:10px Arial;color:#747c63;white-space:nowrap}
+#book .activity-reflection{margin:9px 0 0;padding:8px 10px;background:#eaf0dd;border-left:2px solid #809457}
+#book .activity-reflection strong{font-size:9px;letter-spacing:1px}
+#book .activity-reflection p{font-size:12px;line-height:1.35;margin:4px 0 0}
+#book .activity-answer-line{display:block;height:13px;border-bottom:1px solid #c6d0b2}
+@media(max-width:600px){
+ #book .activity-page h2{font-size:28px}
+ #book .activity-items{gap:4px}
+ #book .activity-items li{font-size:10px;padding:4px 5px}
+ #book .activity-categories>div{padding:6px 8px}
+ #book .activity-reflection{margin-top:8px;padding:7px 9px}
+ #book .activity-reflection p{font-size:11px}
+}
