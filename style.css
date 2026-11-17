@@ -344,3 +344,25 @@ main{padding-top:16px}
  #book .activity-reflection{margin-top:8px;padding:7px 9px}
  #book .activity-reflection p{font-size:11px}
 }
+
+/* Compact the reader after moving its start action onto the cover. */
+.reader-heading{justify-content:center;margin:0 auto 7px;padding-bottom:5px}
+.reader-controls{display:flex;justify-content:center;max-width:460px;margin:5px auto 0}
+.progress-area{display:grid;grid-template-columns:auto minmax(100px,1fr);align-items:center;gap:10px;width:100%;max-width:420px;min-width:0;text-align:left}
+.progress-area span{font-size:11px;white-space:nowrap}
+.progress-area input{display:block;margin:0;height:18px}
+.reader-tools{margin:4px 0 7px}
+#book .cover-author{padding-right:58px}
+#book .cover-author .cover-play{position:absolute;right:17px;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:34px;height:34px;padding:0;border:1.5px solid #547447;border-radius:50%;background:#f6f1dd;color:#315d3a;font:15px/1 Arial;box-shadow:0 1px 0 #b8c9a6}
+#book .cover-author .cover-play:hover{background:#e8edda}
+@media(max-width:600px){
+ main{padding:5px 12px 0}
+ .reader-heading{margin-bottom:5px;padding-bottom:4px}
+ .reader-heading h1{font-size:14px}
+ .reader-controls{margin-top:3px}
+ .progress-area{gap:8px}
+ .progress-area span{font-size:9px}
+ .reader-tools{margin:3px 0 5px}
+ #book .cover-author{padding-right:52px}
+ #book .cover-author .cover-play{right:13px;width:31px;height:31px}
+}
