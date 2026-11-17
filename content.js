@@ -54,7 +54,7 @@ window.WARBULA_CONTENT = {
       "page": 22,
       "group": "Jejak masa lampau",
       "number": "06",
-      "menuTitle": "Museum Radjiman",
+      "menuTitle": "Rumah dan Museum Dr. Radjiman",
       "icon": "museum"
     },
     {
@@ -86,7 +86,7 @@ window.WARBULA_CONTENT = {
       "page": 38,
       "group": "Belajar dan beraksi",
       "number": "10",
-      "menuTitle": "Bandingkan Warisan",
+      "menuTitle": "Membandingkan warisan",
       "icon": "book"
     },
     {
@@ -98,11 +98,11 @@ window.WARBULA_CONTENT = {
       "icon": "leaf"
     },
     {
-      "title": "Latihan & refleksi",
+      "title": "Latihan dan refleksi",
       "page": 44,
       "group": "Belajar dan beraksi",
       "number": "12",
-      "menuTitle": "Latihan dan Refleksi",
+      "menuTitle": "Latihan dan refleksi",
       "icon": "book"
     },
     {
@@ -595,7 +595,7 @@ window.WARBULA_CONTENT = {
         "Sebutkan sumber saat memakai informasi atau foto orang lain. Jangan mengaku sebagai pembuatnya.",
         "Dalam seni pertunjukan, amati bentuk karya, latihan, iringan, serta kerja sama pelakunya. Gunakan bahasa yang sopan."
       ],
-      "note": "Tepat dalam bercerita berarti membantu orang lain mengenal warisan dengan benar."
+      "note": "Bercerita dengan tepat membantu orang lain memahami warisan."
     },
     {
       "kind": "article",
@@ -788,7 +788,7 @@ window.WARBULA_CONTENT = {
         },
         {
           "term": "BPUPK",
-          "definition": "Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan yang membahas persiapan kemerdekaan Indonesia pada 1945."
+          "definition": "Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan, lembaga yang membahas dasar negara dan kemerdekaan Indonesia pada 1945."
         },
         {
           "term": "Cagar budaya",
@@ -1230,5 +1230,5 @@ window.WARBULA_CONTENT = {
       "note": "Mengenal, menghargai, melestarikan."
     }
   ],
-  "edition": "menu-15"
+  "edition": "menu-16"
 };

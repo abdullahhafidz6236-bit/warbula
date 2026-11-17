@@ -353,8 +353,8 @@ main{padding-top:16px}
 .progress-area input{display:block;margin:0;height:18px}
 .reader-tools{margin:4px 0 7px}
 #book .cover-author{padding-right:58px}
-#book .cover-author .cover-play{position:absolute;right:17px;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:34px;height:34px;padding:0;border:1.5px solid #547447;border-radius:50%;background:#f6f1dd;color:#315d3a;font:15px/1 Arial;box-shadow:0 1px 0 #b8c9a6}
-#book .cover-author .cover-play:hover{background:#e8edda}
+#book .cover-author .cover-play{position:absolute;right:17px;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:34px;height:34px;padding:0;border:1.5px solid #234b3d;border-radius:50%;background:#234b3d;color:#fffaf0;font:15px/1 Arial;box-shadow:0 2px 0 #a6b88f}
+#book .cover-author .cover-play:hover{background:#315e4b;border-color:#315e4b}
 @media(max-width:600px){
  main{padding:5px 12px 0}
  .reader-heading{margin-bottom:5px;padding-bottom:4px}
